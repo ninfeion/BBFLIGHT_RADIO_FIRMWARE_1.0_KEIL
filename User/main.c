@@ -142,7 +142,7 @@ int main(void)
 							  timeCount ++;
 						  }
 						  NrfState = TRANS_TO_TX; // Time out  
-						  delay_ms(100);
+						  //delay_ms(200); //MMMMMMMMAAAAAAAAAAAAAARRRRRRRRRRRRRKKKKKKKKKK
 				          break;
 		}				
 	}			
@@ -153,7 +153,7 @@ void nrfTransmitResult(uint8_t res, uint8_t linkQuality)
 	if(res == 0)
 	{
 		txFailCount ++;
-		delay_noInt_ms(100);
+		//delay_noInt_ms(100);
 	}
 	else
 	{
