@@ -1,0 +1,766 @@
+Dependencies for Project 'BBFLIGHT_RADIOv100', Target 'BBFLIGHT_RADIO': (DO NOT MODIFY !)
+F (.\User\main.c)(0x57A0927C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\main.o --omf_browse .\list\main.crf --depend .\list\main.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (User\systeminit.h)(0x579230DE)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (User\delay.h)(0x579EF68A)
+I (User\system_config.h)(0x56F77C33)
+I (User\spinrf.h)(0x57A034BC)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (User\usb2com.h)(0x57A09001)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+I (User\debug.h)(0x56FB3E9D)
+F (.\User\systeminit.c)(0x57A04463)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\systeminit.o --omf_browse .\list\systeminit.crf --depend .\list\systeminit.d)
+I (User\systeminit.h)(0x579230DE)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (User\system_config.h)(0x56F77C33)
+I (User\adc.h)(0x56FBCDD7)
+I (User\delay.h)(0x579EF68A)
+F (.\User\system_config.h)(0x56F77C33)()
+F (.\User\adc.c)(0x56FBCDDB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\adc.o --omf_browse .\list\adc.crf --depend .\list\adc.d)
+I (User\adc.h)(0x56FBCDD7)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+F (.\User\delay.c)(0x579EF788)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\delay.o --omf_browse .\list\delay.crf --depend .\list\delay.d)
+I (User\delay.h)(0x579EF68A)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (.\User\spinrf.c)(0x57A0906E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\spinrf.o --omf_browse .\list\spinrf.crf --depend .\list\spinrf.d)
+I (User\spinrf.h)(0x57A034BC)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (User\systeminit.h)(0x579230DE)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (User\delay.h)(0x579EF68A)
+F (.\User\usb2com.c)(0x57A09004)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb2com.o --omf_browse .\list\usb2com.crf --depend .\list\usb2com.d)
+I (User\usb2com.h)(0x57A09001)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+F (.\User\USB\src\hw_config.c)(0x5700D375)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\hw_config.o --omf_browse .\list\hw_config.crf --depend .\list\hw_config.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_prop.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_desc.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_pwr.h)(0x56D7E5FD)
+I (.\User\USB\inc\Queue.h)(0x56D7E13B)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+F (.\User\USB\src\Queue.c)(0x56D7E1E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\queue.o --omf_browse .\list\queue.crf --depend .\list\queue.d)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (.\User\USB\inc\Queue.h)(0x56D7E13B)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+F (.\User\USB\src\usb_desc.c)(0x56D7DE21)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_desc.o --omf_browse .\list\usb_desc.crf --depend .\list\usb_desc.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_desc.h)(0x56D7E1A5)
+F (.\User\USB\src\usb_endp.c)(0x56D7DDA2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_endp.o --omf_browse .\list\usb_endp.crf --depend .\list\usb_endp.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_desc.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_istr.h)(0x50FD8886)
+I (.\User\USB\inc\usb_pwr.h)(0x56D7E5FD)
+F (.\User\USB\src\usb_istr.c)(0x50FD8886)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_istr.o --omf_browse .\list\usb_istr.crf --depend .\list\usb_istr.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_prop.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_pwr.h)(0x56D7E5FD)
+I (.\User\USB\inc\usb_istr.h)(0x50FD8886)
+F (.\User\USB\src\usb_it.c)(0x56D7F4D8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_it.o --omf_browse .\list\usb_it.crf --depend .\list\usb_it.d)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_istr.h)(0x50FD8886)
+F (.\User\USB\src\usb_prop.c)(0x56D7DD69)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_prop.o --omf_browse .\list\usb_prop.crf --depend .\list\usb_prop.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_prop.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_desc.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_pwr.h)(0x56D7E5FD)
+F (.\User\USB\src\usb_pwr.c)(0x56D7E609)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_pwr.o --omf_browse .\list\usb_pwr.crf --depend .\list\usb_pwr.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_pwr.h)(0x56D7E5FD)
+F (.\User\USB\STM32_USB-FS-Device_Driver\src\usb_core.c)(0x50FD8893)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_core.o --omf_browse .\list\usb_core.crf --depend .\list\usb_core.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+F (.\User\USB\STM32_USB-FS-Device_Driver\src\usb_init.c)(0x56D7E6BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_init.o --omf_browse .\list\usb_init.crf --depend .\list\usb_init.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+F (.\User\USB\STM32_USB-FS-Device_Driver\src\usb_int.c)(0x50FD8893)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_int.o --omf_browse .\list\usb_int.crf --depend .\list\usb_int.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+F (.\User\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c)(0x50FD8893)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_mem.o --omf_browse .\list\usb_mem.crf --depend .\list\usb_mem.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+F (.\User\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c)(0x50FD8893)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_regs.o --omf_browse .\list\usb_regs.crf --depend .\list\usb_regs.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+F (.\User\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c)(0x50FD8892)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\usb_sil.o --omf_browse .\list\usb_sil.crf --depend .\list\usb_sil.d)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x50FD8893)
+I (.\User\USB\inc\hw_config.h)(0x56D7E57F)
+I (.\User\USB\inc\platform_config.h)(0x56D7D9AD)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_type.h)(0x56D7E1A5)
+I (.\User\USB\inc\usb_conf.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_regs.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_def.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_core.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x56D7E1A5)
+I (.\User\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x56D7E1A5)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\misc.o --omf_browse .\list\misc.crf --depend .\list\misc.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_adc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_adc.o --omf_browse .\list\stm32f10x_adc.crf --depend .\list\stm32f10x_adc.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_dma.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_dma.o --omf_browse .\list\stm32f10x_dma.crf --depend .\list\stm32f10x_dma.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_exti.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_exti.o --omf_browse .\list\stm32f10x_exti.crf --depend .\list\stm32f10x_exti.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_flash.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_flash.o --omf_browse .\list\stm32f10x_flash.crf --depend .\list\stm32f10x_flash.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_gpio.o --omf_browse .\list\stm32f10x_gpio.crf --depend .\list\stm32f10x_gpio.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_i2c.o --omf_browse .\list\stm32f10x_i2c.crf --depend .\list\stm32f10x_i2c.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_pwr.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_pwr.o --omf_browse .\list\stm32f10x_pwr.crf --depend .\list\stm32f10x_pwr.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_rcc.o --omf_browse .\list\stm32f10x_rcc.crf --depend .\list\stm32f10x_rcc.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_spi.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_spi.o --omf_browse .\list\stm32f10x_spi.crf --depend .\list\stm32f10x_spi.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_tim.o --omf_browse .\list\stm32f10x_tim.crf --depend .\list\stm32f10x_tim.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\stm32f10x_usart.o --omf_browse .\list\stm32f10x_usart.crf --depend .\list\stm32f10x_usart.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5615ADFE)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1E2E3C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"--list .\list\startup_stm32f10x_md.lst --xref -o .\list\startup_stm32f10x_md.o --depend .\list\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1E2E3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\User -I.\User\USB\inc -I.\User\USB\STM32_USB-FS-Device_Driver\inc-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE-I C:\BBflight\BBFLIGHT_RADIO_FIRMWARE_1.0_KEIL\RTE\Device\STM32F103C8-I "C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include"-I "C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc"-D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o .\list\system_stm32f10x.o --omf_browse .\list\system_stm32f10x.crf --depend .\list\system_stm32f10x.d)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x57A04463)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Extra Software\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (.\User\stm32f10x_conf.h)(0x5672D9A9)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (C:\Extra Software\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
