@@ -20,8 +20,8 @@ uint8_t NrfState;
 
 #define RT_TIMES 10.0
 
-uint8_t  RX_ADDRESS[RX_ADR_WIDTH]= {0x34,0xc3,0x10,0x10,0x00};	//本机地址	
-uint8_t  TX_ADDRESS[TX_ADR_WIDTH]= {0x34,0xc3,0x10,0x10,0x11};	//接收地址
+uint8_t  RX_ADDRESS[RX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x00};	//本机地址	
+uint8_t  TX_ADDRESS[TX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x11};	//接收地址
 
 #define TX_MODE 0
 #define RX_MODE 1
@@ -29,9 +29,11 @@ uint8_t  TX_ADDRESS[TX_ADR_WIDTH]= {0x34,0xc3,0x10,0x10,0x11};	//接收地址
 #define TRANS_TO_RX 3
 #define LOSTCONTROLTRIGGER 5
 #define TIMEOUT 1429
+
+#define RXFAILTRIGGER 2
 uint32_t timeCount = 0;
-uint8_t txFailCount = 0;
-uint8_t lostControlFlag = 0;
+uint8_t txFailCount = 0, rxFailCount = 0;
+uint8_t lostControlFlag = 0, rxFailWarning = 0;
 
 typedef struct 
 {
@@ -59,14 +61,14 @@ RespondMess BBMess;
 
 int main(void)
 {
-	uint8_t i;
+	uint32_t i;
 
 	sysInit();
 	spi1NrfInit();
 	
 	if(NRF24L01_Check() == 1)
 	{
-		USB_printf("NRFCHECK OK");
+		//USB_printf("NRFCHECK OK");
 	}
 
 	usbVirtualComInit();
@@ -96,16 +98,19 @@ int main(void)
 							  NRF_Write_Reg(NRF_WRITE_REG + SETUP_RETR, 0x1f); // Setup of automatic retransmission: 500us, 15times
 							  NRF_Write_Reg(NRF_WRITE_REG + RF_CH, 0x5e);      // Set the frequency channel
 							  NRF_Write_Reg(NRF_WRITE_REG + RF_SETUP, 0x26);   // Set data rate and output power:0db, 2Mbps (0x26 0dm 250kbps)
-					
-							  i = USB_RxRead(NRF24L01_TXDATA, TX_PLOAD_WIDTH);
-							  if(i == 0)
-							  {
-								  for(i=0; i<TX_PLOAD_WIDTH; i++)
-								  {
-									  NRF24L01_TXDATA[i] = 0x00;
-								  }
-							  }						  
 							  
+							  //if(rxFailWarning != 1)
+							  //{
+								  i = USB_RxRead(NRF24L01_TXDATA, TX_PLOAD_WIDTH);
+								  if(i == 0)
+								  {
+									  for(i=0; i<TX_PLOAD_WIDTH; i++)
+									  {
+										  NRF24L01_TXDATA[i] = 0x00;
+									  }
+								  }	
+							  //}								  
+
 							  NRF_Write_Buf(WR_TX_PLOAD, NRF24L01_TXDATA, TX_PLOAD_WIDTH);
 								
 							  NrfState = TX_MODE;					  
@@ -142,7 +147,23 @@ int main(void)
 							  timeCount ++;
 						  }
 						  NrfState = TRANS_TO_TX; // Time out  
-						  //delay_ms(200); //MMMMMMMMAAAAAAAAAAAAAARRRRRRRRRRRRRKKKKKKKKKK
+						  if(timeCount < TIMEOUT*1500)
+						  {
+							delay_ms(200); //MMMMMMMMAAAAAAAAAAAAAARRRRRRRRRRRRRKKKKKKKKKK
+						  }
+						  /*if(timeCount >= TIMEOUT*1500)
+						  {
+							  rxFailCount ++;
+							  if(rxFailCount > RXFAILTRIGGER)
+							  {
+								  rxFailWarning = 1;
+							  }
+						  }
+						  else
+						  {
+							  rxFailCount = 0;
+							  rxFailWarning = 0;
+						  }*/ 
 				          break;
 		}				
 	}			
@@ -153,7 +174,7 @@ void nrfTransmitResult(uint8_t res, uint8_t linkQuality)
 	if(res == 0)
 	{
 		txFailCount ++;
-		//delay_noInt_ms(100);
+		delay_noInt_ms(100);
 	}
 	else
 	{
@@ -168,16 +189,11 @@ void nrfTransmitResult(uint8_t res, uint8_t linkQuality)
 
 void nrfReceiveResult(uint8_t res)
 {
-//	uint16_t sum;
-	uint8_t i;
 	if(res == 1)
 	{
-		for(i=0; i<RX_PLOAD_WIDTH; i++)
+		if((NRF24L01_RXDATA[0] == 0xaa)&&(NRF24L01_RXDATA[31] == 0xff))
 		{
-			if((NRF24L01_RXDATA[i]!=0) && (NRF24L01_RXDATA[i]!=1))
-			{
-				USB_TxWrite(&NRF24L01_RXDATA[i], 1); 
-			}
+			USB_TxWrite(NRF24L01_RXDATA, RX_PLOAD_WIDTH);
 		}
 	}
 }

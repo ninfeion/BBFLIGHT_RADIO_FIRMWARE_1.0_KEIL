@@ -255,10 +255,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>90</ColumnNumber>
+      <ColumnNumber>10</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>128</TopLine>
-      <CurrentLine>145</CurrentLine>
+      <TopLine>42</TopLine>
+      <CurrentLine>71</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\User\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -327,10 +327,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>17</ColumnNumber>
+      <ColumnNumber>26</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>2</TopLine>
+      <CurrentLine>5</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\User\delay.c</PathWithFileName>
       <FilenameWithoutPath>delay.c</FilenameWithoutPath>
@@ -401,8 +401,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\User\USB\src\Queue.c</PathWithFileName>
       <FilenameWithoutPath>Queue.c</FilenameWithoutPath>
@@ -841,7 +841,7 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>124</TopLine>
+      <TopLine>123</TopLine>
       <CurrentLine>133</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>RTE\Device\STM32F103C8\startup_stm32f10x_md.s</PathWithFileName>
