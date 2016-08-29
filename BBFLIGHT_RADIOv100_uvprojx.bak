@@ -419,16 +419,6 @@
               <FileType>5</FileType>
               <FilePath>.\User\system_config.h</FilePath>
             </File>
-            <File>
-              <FileName>pcapp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\pcapp.c</FilePath>
-            </File>
-            <File>
-              <FileName>nrf24app.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\nrf24app.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -438,11 +428,6 @@
               <FileName>adc.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\adc.c</FilePath>
-            </File>
-            <File>
-              <FileName>debug.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\debug.c</FilePath>
             </File>
             <File>
               <FileName>delay.c</FileName>
@@ -458,11 +443,6 @@
               <FileName>usb2com.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\usb2com.c</FilePath>
-            </File>
-            <File>
-              <FileName>pwm.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User\pwm.c</FilePath>
             </File>
           </Files>
         </Group>

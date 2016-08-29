@@ -14,14 +14,14 @@
 	#include "usart.h"
 #endif
 
-uint8_t NRF24L01_RXDATA[RX_PLOAD_WIDTH];//nrf24l01接收到的数据
-uint8_t NRF24L01_TXDATA[TX_PLOAD_WIDTH];//nrf24l01需要发送的数据
+uint8_t NRF24L01_RXDATA[RX_PLOAD_WIDTH];//nrf24l01鎺ユ敹鍒扮殑鏁版嵁
+uint8_t NRF24L01_TXDATA[TX_PLOAD_WIDTH];//nrf24l01闇�瑕佸彂閫佺殑鏁版嵁
 uint8_t NrfState;
 
 #define RT_TIMES 10.0
 
-uint8_t  RX_ADDRESS[RX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x00};	//本机地址	
-uint8_t  TX_ADDRESS[TX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x11};	//接收地址
+uint8_t  RX_ADDRESS[RX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x00};	//鏈満鍦板潃	
+uint8_t  TX_ADDRESS[TX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x11};	//鎺ユ敹鍦板潃
 
 #define TX_MODE 0
 #define RX_MODE 1
@@ -32,8 +32,8 @@ uint8_t  TX_ADDRESS[TX_ADR_WIDTH]= {0x35,0xc3,0x10,0x10,0x11};	//接收地址
 
 #define RXFAILTRIGGER 2
 uint32_t timeCount = 0;
-uint8_t txFailCount = 0, rxFailCount = 0;
-uint8_t lostControlFlag = 0, rxFailWarning = 0;
+uint8_t txFailCount = 0;
+uint8_t lostControlFlag = 0;
 
 typedef struct 
 {
@@ -68,7 +68,7 @@ int main(void)
 	
 	if(NRF24L01_Check() == 1)
 	{
-		//USB_printf("NRFCHECK OK");
+		BBSYSTEM.NRFONLINE = 1;
 	}
 
 	usbVirtualComInit();
@@ -99,18 +99,14 @@ int main(void)
 							  NRF_Write_Reg(NRF_WRITE_REG + RF_CH, 0x5e);      // Set the frequency channel
 							  NRF_Write_Reg(NRF_WRITE_REG + RF_SETUP, 0x26);   // Set data rate and output power:0db, 2Mbps (0x26 0dm 250kbps)
 							  
-							  //if(rxFailWarning != 1)
-							  //{
-								  i = USB_RxRead(NRF24L01_TXDATA, TX_PLOAD_WIDTH);
-								  if(i == 0)
+							  i = USB_RxRead(NRF24L01_TXDATA, TX_PLOAD_WIDTH);
+							  if(i == 0)
+							  {
+							      for(i=0; i<TX_PLOAD_WIDTH; i++)
 								  {
-									  for(i=0; i<TX_PLOAD_WIDTH; i++)
-									  {
-										  NRF24L01_TXDATA[i] = 0x00;
-									  }
-								  }	
-							  //}								  
-
+									  NRF24L01_TXDATA[i] = 0x00;
+								  }
+							  }								  
 							  NRF_Write_Buf(WR_TX_PLOAD, NRF24L01_TXDATA, TX_PLOAD_WIDTH);
 								
 							  NrfState = TX_MODE;					  
@@ -151,19 +147,6 @@ int main(void)
 						  {
 							delay_ms(200); //MMMMMMMMAAAAAAAAAAAAAARRRRRRRRRRRRRKKKKKKKKKK
 						  }
-						  /*if(timeCount >= TIMEOUT*1500)
-						  {
-							  rxFailCount ++;
-							  if(rxFailCount > RXFAILTRIGGER)
-							  {
-								  rxFailWarning = 1;
-							  }
-						  }
-						  else
-						  {
-							  rxFailCount = 0;
-							  rxFailWarning = 0;
-						  }*/ 
 				          break;
 		}				
 	}			
@@ -222,7 +205,6 @@ void EXTI3_IRQHandler(void)
 							
 						NrfState = TRANS_TO_RX;	
 						EXTI_ClearITPendingBit(EXTI_Line3);
-
 						break;
 			
 		case RX_MODE:   SPI_CE_L;
@@ -237,10 +219,8 @@ void EXTI3_IRQHandler(void)
 						}	
 						NrfState = TRANS_TO_TX;
 						EXTI_ClearITPendingBit(EXTI_Line3);
-
 						break;
 	}			
-	
 }
 
 
